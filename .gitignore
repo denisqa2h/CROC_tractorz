@@ -1,0 +1,52 @@
+.gradle
+build/
+!src/gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+*.mv.domain.repository
+*.mv.db
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### python ###
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+tests/reports/
+venv/
+
+.werf_secret_key
+
+###Personal Test Files###
+/tests/tests/my.json
+/tests/tests/test_my.py
